@@ -1,0 +1,14 @@
+<div *ngIf="5>2" style="height: 50vh; background-color: orange;">
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Address</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let usr of userDetails">
+                <td style="padding: 5px;">{{usr.name}}</td>
+                <td style="padding: 5px;">{{usr.address}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
